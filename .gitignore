@@ -9,6 +9,8 @@
 /dist
 /tags
 *.mo
+/app
+app/
 
 # IDE and editor specific files #
 #################################
@@ -25,3 +27,7 @@
 Icon?
 ehthumbs.db
 Thumbs.db
+
+app/.htaccess
+
+app/.htaccess
