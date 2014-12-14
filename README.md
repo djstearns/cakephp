@@ -1,5 +1,18 @@
 # CakePHP
 
+*************
+*************
+
+This is a branch from Cakephp for djstearns’s Appcreator
+
+Dependencies:
+https://github.com/djstearns/cakephp
+https://github.com/djstearns/croogo
+https://github.com/djstearns/appcreator-plugin
+
+*************
+*************
+
 [![Latest Stable Version](https://poser.pugx.org/cakephp/cakephp/v/stable.svg)](https://packagist.org/packages/cakephp/cakephp)
 [![License](https://poser.pugx.org/cakephp/cakephp/license.svg)](https://packagist.org/packages/cakephp/cakephp)
 [![Bake Status](https://secure.travis-ci.org/cakephp/cakephp.png?branch=master)](http://travis-ci.org/cakephp/cakephp)
