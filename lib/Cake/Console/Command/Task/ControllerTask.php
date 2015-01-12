@@ -332,7 +332,7 @@ class ControllerTask extends BakeTask {
 		$this->out("\n" . __d('cake_console', 'Baking controller class for %s...', $controllerName), 1, Shell::QUIET);
 
 		$isScaffold = ($actions === 'scaffold') ? true : false;
-
+		
 		$this->Template->set(array(
 			'plugin' => $this->plugin,
 			'pluginPath' => empty($this->plugin) ? '' : $this->plugin . '.'

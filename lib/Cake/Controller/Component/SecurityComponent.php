@@ -446,7 +446,6 @@ class SecurityComponent extends Component {
 			return true;
 		}
 		$data = $controller->request->data;
-
 		if (!isset($data['_Token']) || !isset($data['_Token']['fields']) || !isset($data['_Token']['unlocked'])) {
 			return false;
 		}
@@ -455,7 +454,7 @@ class SecurityComponent extends Component {
 		$check = $controller->request->data;
 		$token = urldecode($check['_Token']['fields']);
 		$unlocked = urldecode($check['_Token']['unlocked']);
-
+		
 		if (strpos($token, ':')) {
 			list($token, $locked) = explode(':', $token, 2);
 		}

@@ -1754,7 +1754,7 @@ class Model extends Object implements CakeEventListener {
 		if (isset($this->data[$this->alias])) {
 			$fields = array_keys($this->data[$this->alias]);
 		}
-
+		
 		if ($options['validate'] && !$this->validates($options)) {
 			$this->whitelist = $_whitelist;
 			return false;
@@ -1791,7 +1791,7 @@ class Model extends Object implements CakeEventListener {
 				return false;
 			}
 		}
-
+		
 		$db = $this->getDataSource();
 
 		if (empty($this->data[$this->alias][$this->primaryKey])) {
@@ -1862,7 +1862,7 @@ class Model extends Object implements CakeEventListener {
 				$this->updateCounterCache($cache, $created);
 			}
 		}
-
+		
 		if (!empty($joined) && $success === true) {
 			$this->_saveMulti($joined, $this->id, $db);
 		}
@@ -1891,7 +1891,7 @@ class Model extends Object implements CakeEventListener {
 			$this->validationErrors = array();
 			$this->data = false;
 		}
-
+		
 		$this->whitelist = $_whitelist;
 		return $success;
 	}
